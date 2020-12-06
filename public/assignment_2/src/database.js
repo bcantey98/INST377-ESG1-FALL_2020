@@ -56,6 +56,5 @@ let db = new sqlite3.Database(DBSOURCE, (err) => {
         
     }
 });
-//db.run(insert, ["user","user@example.com",md5("user123456")]
 
 module.exports = db;
